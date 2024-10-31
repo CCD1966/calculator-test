@@ -7,11 +7,11 @@ describe('Componente suma ', () => {
     component = new SumComponent();
   });
 
-  it('should create', () => {
+  it('Se crea correctamente', () => {
     expect(component).toBeTruthy();
   });
 
-  it('should sum two values', () => {
+  it('sumamos dos valores', () => {
     component.value1 = 5;
     component.value2 = 3;
     component.sum();
